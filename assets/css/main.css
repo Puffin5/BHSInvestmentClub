@@ -12,13 +12,13 @@
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
 	html, body, div, span, applet, object,
-	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+	iframe, h1, h2, h3, h4, h5, h6, blockquote,
 	pre, a, abbr, acronym, address, big, cite,
 	code, del, dfn, em, img, ins, kbd, q, s, samp,
 	small, strike, strong, sub, sup, tt, var, b,
 	u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-	form, label, legend, table, caption, tbody,
-	tfoot, thead, tr, th, td, article, aside,
+	form, label, legend, caption, tbody,
+	tfoot, thead, th, article, aside,
 	canvas, details, embed, figure, figcaption,
 	footer, header, hgroup, menu, nav, output, ruby,
 	section, summary, time, mark, audio, video {
@@ -27,7 +27,6 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline;
 	}
 
 	article, aside, details, figcaption, figure,
@@ -2263,7 +2262,7 @@
 
 		.box.alt {
 			background: none !important;
-			border-radius: 0 !important;
+			
 			box-shadow: none !important;
 			margin: 0 0 2em 0;
 			padding: 0 !important;
@@ -2678,13 +2677,13 @@
 	}
 
 		table tbody tr {
-			border: solid 1px #e5e5e5;
+			border: solid 1px #ffffff;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f8f8f8;
+				background-color: #ffffff;
 			}
 
 		table td {
@@ -2700,11 +2699,11 @@
 		}
 
 		table thead {
-			border-bottom: solid 2px #e5e5e5;
+			border-bottom: solid 2px #ffffff;
 		}
 
 		table tfoot {
-			border-top: solid 2px #e5e5e5;
+			border-top: solid 2px #ffffff;
 		}
 
 		table.alt {
@@ -2712,7 +2711,7 @@
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #e5e5e5;
+				border: solid 1px #ffffff;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -3461,6 +3460,7 @@
 
 			.box {
 				padding: 3em 2em;
+				
 			}
 
 				.box.features > section {
@@ -3865,7 +3865,7 @@
 				}
 
 					.box .image.featured img {
-						border-radius: 0 !important;
+						border-radius: 0;
 					}
 
 					.box .image.featured:first-child {
@@ -3966,3 +3966,63 @@
 		filter: blur(8px);
   		-webkit-filter: blur(8px);
 	}
+
+	.same{
+		height: 250px !important;
+	}
+
+	.nobullet{
+		list-style-type: none;
+	}
+
+	.newstable{
+		background:#fff;
+	}
+	.news{
+		width: 50%;
+		text-align: left;
+		padding: 0;
+	}
+	.newspic{
+		width:95%;
+		margin-right: 20px;
+		height:100%;
+		padding:0;
+	}
+
+	.newsspan{
+		display: block;
+		height:400px;
+		padding:0;
+	}
+
+	.newsbox{
+		background: #fff;
+		border-radius: 25px !important;
+		box-shadow: 1px 4px 1px 1px #e5e5e5;
+		margin: 0 0 4em 0 !important;
+		padding: 10px !important;
+	}
+
+	/*
+	padding: 10px;
+	border-radius: 25px;
+	margin: 0 0 4em 0;
+	*/
+
+	/*
+		.box{
+			background: #fff;
+			border-radius: 6px;
+			box-shadow: 0 2px 0 0 #e5e5e5;
+			margin: 0 0 2em 0;
+			padding: 3em;
+		}
+	*/
+
+/* //////////////////////////////////////////////// TEST //////////////////////////////////////////////// *\
+
+
+
+
+
