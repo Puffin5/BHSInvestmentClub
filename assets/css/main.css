@@ -131,7 +131,6 @@
 		}
 
 	strong, b {
-		color: #646464;
 		font-weight: 400;
 	}
 
@@ -3151,6 +3150,30 @@
 		text-align: center;
 	}
 
+	#banner2{
+		background-attachment: scroll,							fixed;
+		background-color: #666;
+		background-image: url("images/overlay.png"), url("../../images/incomestatementimg.jpg"); 
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+
+	#banner3{
+		background-attachment: scroll,							fixed;
+		background-color: #666;
+		background-image: url("images/overlay.png"), url("../../images/investorbanner.jpg"); 
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+
 		#banner :last-child {
 			margin-bottom: 0;
 		}
@@ -3166,7 +3189,31 @@
 			padding: 0;
 		}
 
+		#banner2 h2 {
+			font-size: 3.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+		#banner3 h2 {
+			font-size: 3.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
 		#banner p {
+			font-size: 1.25em;
+			margin-bottom: 1.75em;
+		}
+
+		#banner2 p {
+			font-size: 1.25em;
+			margin-bottom: 1.75em;
+		}
+
+		#banner3 p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
 		}
@@ -3361,6 +3408,14 @@
 				padding: 10em 0 18em 0;
 			}
 
+			#banner2 {
+				padding: 10em 0 10em 0;
+			}
+
+			#banner3 {
+				padding: 10em 0 10em 0;
+			}
+
 	}
 
 /* Normal */
@@ -3389,6 +3444,20 @@
 					font-size: 3.5em;
 				}
 
+			#banner2 {
+				background-attachment: scroll;
+			}
+	
+				#banner2 h2 {
+					font-size: 3.5em;
+				}
+			#banner3 {
+				background-attachment: scroll;
+			}
+		
+				#banner3 h2 {
+					font-size: 3.5em;
+				}
 	}
 
 /* Narrow */
@@ -3729,6 +3798,30 @@
 					font-size: 1.25em;
 				}
 
+			#banner2 {
+				padding: 4em 0;
+			}
+
+				#banner2 h2 {
+					font-size: 2.25em;
+				}
+
+				#banner2 p {
+					font-size: 1.25em;
+				}
+			
+			#banner3 {
+				padding: 4em 0;
+			}
+	
+				#banner3 h2 {
+					font-size: 2.25em;
+				}
+	
+				#banner3 p {
+					font-size: 1.25em;
+				}
+
 		/* Main */
 
 			#main {
@@ -3860,6 +3953,14 @@
 		/* Banner */
 
 			#banner {
+				padding: 5em 3em 4em 3em;
+			}
+
+			#banner2 {
+				padding: 5em 3em 4em 3em;
+			}
+
+			#banner3 {
 				padding: 5em 3em 4em 3em;
 			}
 
