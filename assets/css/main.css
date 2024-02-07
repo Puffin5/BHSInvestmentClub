@@ -3174,6 +3174,18 @@
 		text-align: center;
 	}
 
+	#banner4{
+		background-attachment: scroll,							fixed;
+		background-color: #666;
+		background-image: url("images/overlay.png"), url("../../images/ESGbanner.png"); 
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+
 		#banner :last-child {
 			margin-bottom: 0;
 		}
@@ -3415,6 +3427,9 @@
 			#banner3 {
 				padding: 10em 0 10em 0;
 			}
+			#banner4 {
+				padding: 10em 0 10em 0;
+			}
 
 	}
 
@@ -3456,6 +3471,13 @@
 			}
 		
 				#banner3 h2 {
+					font-size: 3.5em;
+				}
+			#banner4 {
+				background-attachment: scroll;
+			}
+			
+				#banner4 h2 {
 					font-size: 3.5em;
 				}
 	}
@@ -3821,6 +3843,17 @@
 				#banner3 p {
 					font-size: 1.25em;
 				}
+			#banner4 {
+				padding: 4em 0;
+			}
+		
+				#banner4 h2 {
+					font-size: 2.25em;
+				}
+		
+				#banner4 p {
+					font-size: 1.25em;
+				}
 
 		/* Main */
 
@@ -3961,6 +3994,10 @@
 			}
 
 			#banner3 {
+				padding: 5em 3em 4em 3em;
+			}
+
+			#banner4 {
 				padding: 5em 3em 4em 3em;
 			}
 
@@ -4141,6 +4178,12 @@
 		margin-bottom: 1em !important;
 	}
 
+	.blogcit{
+		color:#595959;
+		font-size: 22px;
+		line-height: 1.6;
+		margin-bottom: 1em !important;
+	}
 	.blogpic{
 		width:85%;
 	}
