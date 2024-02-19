@@ -1997,6 +1997,23 @@
 
 		}
 
+		@media screen and (max-width: 840px) {
+
+			.compmain {
+				width: 100% !important;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.compmain {
+				max-width: 100%;
+			}
+
+		}
+
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -4184,6 +4201,7 @@
 		line-height: 1.6;
 		margin-bottom: 1em !important;
 	}
+	
 	.blogpic{
 		width:85%;
 	}
